@@ -1,0 +1,51 @@
+/* Colors */
+$c-white: #ffffff;
+$c-black: #000000;
+$c-transparent: transparent;
+
+$primary-color: #f5f5f5;
+$secundary-color: #fecf22;
+$third-color: #fecf22;
+
+/* Color with opacity */
+$primary-color-op: rgba($primary-color, .3);
+$secundary-color-op: rgba($secundary-color, .3);
+$third-color-op: rgba($third-color, .3);
+
+/* Color Text Shadow */
+$c-text-shadow: rgb(41, 41, 41) 0px 2px 0px;
+
+/* Font Family */
+$font-primary-family: 'Nunito', sans-serif;
+$font-secundary-family: 'Bebas', sans-serif;
+
+/* Font Weight */
+$fw-light: 200;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+
+/* Break Points */
+$break-xxxsmall: 375px;
+$break-xxsmall: 414px;
+$break-xsmall: 580px;
+$break-small: 768px;
+$break-medium: 992px;
+$break-xmedium: 1020px;
+$break-large: 1200px;
+$break-xlarge: 1820px;
+
+/* Path's */
+$url-images: '/assets/images'; 
+$url-fonts: '/assets/fonts';
+
+/* Menu Items */
+$menu-items: (
+  'contacto',
+  'habilidades',
+  'experiencia',
+  'interactivos',
+  'web',
+  'acerca-de',
+  'inicio'
+);

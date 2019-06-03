@@ -1,0 +1,37 @@
+/* Nunito */
+@font-face {
+  font-family: 'Nunito';
+  font-weight: $fw-light;
+  font-style: normal;
+  src:  url($url-fonts + '/Nunito-Light.eot?#iefix') format('embedded-opentype'),
+        url($url-fonts + '/Nunito-Light.woff') format('woff'),
+        url($url-fonts + '/Nunito-Light.ttf')  format('truetype'),
+        url($url-fonts + '/Nunito-Light.svg#Nunito-Light') format('svg');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: $fw-normal;
+  font-style: normal;
+  src:  url($url-fonts + '/Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+        url($url-fonts + '/Nunito-Regular.woff') format('woff'),
+        url($url-fonts + '/Nunito-Regular.ttf')  format('truetype'),
+        url($url-fonts + '/Nunito-Regular.svg#Nunito-Regular') format('svg');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: $fw-medium;
+  font-style: normal;
+  src:  url($url-fonts + '/Nunito-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url($url-fonts + '/Nunito-SemiBold.woff') format('woff'),
+        url($url-fonts + '/Nunito-SemiBold.ttf')  format('truetype'),
+        url($url-fonts + '/Nunito-SemiBold.svg#Nunito-SemiBold') format('svg');
+}
+@font-face {
+  font-family: 'Nunito';
+  font-weight: $fw-bold;
+  font-style: normal;
+  src:  url($url-fonts + '/Nunito-Bold.eot?#iefix') format('embedded-opentype'),
+        url($url-fonts + '/Nunito-Bold.woff') format('woff'),
+        url($url-fonts + '/Nunito-Bold.ttf')  format('truetype'),
+        url($url-fonts + '/Nunito-Bold.svg#Nunito-Bold') format('svg');
+}

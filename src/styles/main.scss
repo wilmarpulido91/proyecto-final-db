@@ -1,0 +1,25 @@
+/* Variables - Mixings - Extends */
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/extends';
+
+/* Animations */
+@import './partials/animations';
+
+/* Font Awesome */
+@import './vendor/font-awesome/fontawesome';
+@import './vendor/font-awesome/brands';
+@import './vendor/font-awesome/regular';
+@import './vendor/font-awesome/solid';
+
+/* Tipografia */
+@import './partials/typography';
+
+/* Vendor */
+@import './vendor/normalize/normalize';
+
+/* Base */
+@import './partials/base';
+
+/* General */
+@import './modules/general';

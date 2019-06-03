@@ -1,0 +1,11 @@
+// Prefix
+@mixin prefix-none($property, $value) {
+	#{$property}: $value;
+}
+@mixin prefix($property, $value) {
+  @include prefix-none($property, $value);
+  -webkit-#{$property}: $value;
+  -moz-#{$property}: $value;
+  -ms-#{$property}: $value;
+  -o-#{$property}: $value;
+}
