@@ -1,0 +1,29 @@
+%bvl-background {
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-image: url($url-images + '/bvl-background.png');
+}
+
+%texture-background {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top right;
+}
+
+%pseudo-icon {
+  /*font-family: $font-bvl;*/
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+
+%fixed-content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  position: fixed;
+}

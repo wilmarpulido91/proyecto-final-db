@@ -1,0 +1,365 @@
+/* Animaciones menu mobile */
+@-webkit-keyframes item-contacto {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 110%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes item-contacto {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 110%;
+  }
+
+  100% {
+    height: 100%;
+  }
+}
+
+@-webkit-keyframes item-habilidades {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 90.71%;
+  }
+
+  100% {
+    height: 85.714284%;
+  }
+}
+
+@keyframes item-habilidades {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 90.71%;
+  }
+
+  100% {
+    height: 85.714284%;
+  }
+}
+
+@-webkit-keyframes item-experiencia {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 76.43%;
+  }
+
+  100% {
+    height: 71.428570%;
+  }
+}
+
+@keyframes item-experiencia {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 76.43%;
+  }
+
+  100% {
+    height: 71.428570%;
+  }
+}
+
+@-webkit-keyframes item-interactivos {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 62.15%;
+  }
+
+  100% {
+    height: 57.142856%;
+  }
+}
+
+@keyframes item-interactivos {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 62.15%;
+  }
+
+  100% {
+    height: 57.142856%;
+  }
+}
+
+@-webkit-keyframes item-web {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 47.87%;
+  }
+
+  100% {
+    height: 42.857142%;
+  }
+}
+
+@keyframes item-web {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 47.87%;
+  }
+
+  100% {
+    height: 42.857142%;
+  }
+}
+
+@-webkit-keyframes item-acerca-de {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 33.59%;
+  }
+
+  100% {
+    height: 28.571428%;
+  }
+}
+
+@keyframes item-acerca-de {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 33.59%;
+  }
+
+  100% {
+    height: 28.571428%;
+  }
+}
+
+@-webkit-keyframes item-inicio {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 19.31%;
+  }
+
+  100% {
+    height: 14.285714%;
+  }
+}
+
+@keyframes item-inicio {
+  0% {
+    height: 0%
+  }
+
+  50% {
+    height: 19.31%;
+  }
+
+  100% {
+    height: 14.285714%;
+  }
+}
+
+@-webkit-keyframes texto-menu {
+  0% {
+    bottom: 100vh;
+  }
+
+  50% {
+    bottom: 2vh;
+  }
+
+  100% {
+    bottom: 4vh;
+  }
+}
+
+@keyframes texto-menu {
+  0% {
+    bottom: 100vh;
+  }
+
+  50% {
+    bottom: 2vh;
+  }
+
+  100% {
+    bottom: 4vh;
+  }
+}
+
+/* Animaciones de habilidades */
+@-webkit-keyframes barra-html {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes barra-html {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+@-webkit-keyframes barra-css {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+@keyframes barra-css {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 95%;
+  }
+}
+
+@-webkit-keyframes barra-javas {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes barra-javas {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes barra-jquery {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 87%;
+  }
+}
+
+@keyframes barra-jquery {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 87%;
+  }
+}
+
+@-webkit-keyframes barra-wordpress {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes barra-wordpress {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 85%;
+  }
+}
+
+@-webkit-keyframes barra-php {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 60%;
+  }
+}
+
+@keyframes barra-php {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes barra-sql {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes barra-sql {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 50%;
+  }
+}
