@@ -6,7 +6,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-size: 12px;
+  font-size: 14px;
   color: $c-black;
   overflow: hidden;
   position: relative;
@@ -16,32 +16,33 @@ body {
 }
 
 h1, h3, h5 {
-  margin: 0;
   line-height: 1;
-  color: $c-white;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: $fw-bold;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 a {
-	color: $c-white;
+	color: $secundary-color;
   text-decoration: none;
   &:hover {
-    color: $secundary-color;
+    color: $third-color;
   }
   &:hover,
   &:visited {
     text-decoration: none;
   }
-}
-
-section {
-  width: 100vw;
-  height: 100vh;
-  display: block;
-  position: relative;
-}
-
-iframe {
-	margin-top: 20px;
 }
 
 button {
