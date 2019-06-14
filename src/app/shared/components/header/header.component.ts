@@ -14,7 +14,6 @@ export class HeaderComponent implements OnInit {
   
   BtnMenu() {
       var sidebar = document.querySelector('.cont-sidebar');
-      // var block = document.querySelector('.block');
       Global.showMenu(sidebar);
   }
 

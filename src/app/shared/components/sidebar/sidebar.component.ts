@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Global } from 'src/app/shared/services/global.services';
 
 @Component({
   selector: 'app-sidebar',
@@ -9,7 +10,11 @@ export class SidebarComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() {}
+
+  CloseMenu() {
+    var sidebar = document.querySelector('.cont-sidebar');
+    Global.showMenu(sidebar);
   }
 
 }
