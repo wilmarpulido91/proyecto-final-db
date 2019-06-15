@@ -3,12 +3,14 @@ export var Global = {
   // url_upload: 'http://localhost/app-banlinea-backend/uploads/',
   url: 'https://webmardesign.com/pruebas/appbanlinea/index.php/',
   url_upload: 'https://webmardesign.com/pruebas/appbanlinea/uploads/',
-  showMenu: function(elm1) {
-      elm1.classList.toggle('in');
-      // elm2.classList.toggle('out');
-  },
-  showMenuList: function(elm1, elm2) {
-      elm1.classList.remove('in');
-      elm2.classList.remove('out');
+  showMenu: function(elm) {
+      elm.classList.toggle('in');
   }
+  // showMenuList: function(elm) {
+  //     if(elm.classList.contains('in')) {
+  //       elm.classList.remove('in');
+  //     }
+  //     elm1.classList.remove('in');
+  //     elm2.classList.remove('out');
+  // }
 }

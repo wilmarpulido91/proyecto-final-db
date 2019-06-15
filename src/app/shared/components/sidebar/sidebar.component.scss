@@ -1,0 +1,98 @@
+@import 'partials/variables';
+
+%efecto {
+  font-weight: bold;
+  color: $secundary-color;
+  background-color: $primary-color;
+}
+
+.rf-sidebar {
+  .menu-close {
+    display: none;
+    padding: 10px;
+    text-align: left;
+
+    i {
+      color: $c-white;
+      cursor: pointer;
+    }
+  }
+
+  ul {
+    &.menu-sidebar {
+      li {
+        width: 100%;
+        h4 {
+          margin: 0;
+          padding: 10px 15px;
+          background-color: $third-color;
+  
+          &.link {
+            cursor: pointer;
+
+            &.active {
+              @extend %efecto;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+
+            &:hover {
+              opacity: .6;
+            }
+          }
+        }
+  
+        ul {
+          margin: 0;
+          padding: 0;
+  
+          li {
+            width: 100%;
+            cursor: pointer;
+            font-size: 16px;
+            padding: 5px 30px;
+  
+            &.active {
+              @extend %efecto;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+
+            &:hover {
+              opacity: .6;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:$break-small) {
+  .rf-sidebar {
+    .menu-close {
+      display: block;
+    }
+    
+    ul {
+      &.menu-sidebar {
+        li {
+          h4 {
+            text-align: center;
+          }
+    
+          ul {
+    
+            li {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

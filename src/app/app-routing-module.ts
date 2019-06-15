@@ -2,23 +2,23 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const appRoutes:Routes = [
-  // {
-  //   path: 'inicio',
-  //   loadChildren: './modules/home/home.module#HomeModule'
-  // },
-  // {
-  //   path: 'acerca-de',
-  //   loadChildren: './modules/about-me/about-me.module#AboutMeModule'
-  // },
+  {
+    path: 'dashboard',
+    loadChildren: './modules/dashboard/dashboard.module#DashboardModule'
+  },
+  {
+    path: 'empleados',
+    loadChildren: './modules/empleados/empleados.module#EmpleadosModule'
+  },
   // {
   //   path: 'experiencia',
   //   loadChildren: './modules/experience/experience.module#ExperienceModule'
   // },
-  // {
-  //   path: '**',
-  //   redirectTo: 'inicio',
-  //   pathMatch: 'full'
-  // }
+  {
+    path: '**',
+    redirectTo: 'dashboard',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
