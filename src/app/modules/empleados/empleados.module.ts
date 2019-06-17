@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { EmpleadosListComponent } from './pages/empleados-list/empleados-list.component';
 
@@ -13,7 +15,9 @@ import { EmpleadosAddComponent } from './pages/empleados-add/empleados-add.compo
   ],
   imports: [
     CommonModule,
-    EmpleadosRoutingModule
+    EmpleadosRoutingModule,
+    FormsModule,
+    HttpClientModule
   ]
 })
 export class EmpleadosModule { }
