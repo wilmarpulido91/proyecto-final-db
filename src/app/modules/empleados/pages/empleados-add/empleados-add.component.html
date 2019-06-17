@@ -1,3 +1,52 @@
-<p>
-  empleados-add works!
-</p>
+<div class="row">
+
+  <div class="col">
+    <h1>{{title}}</h1>
+  </div>
+
+</div>
+
+<div class="row mt-4">
+
+  <div class="col-12 col-sm-10 offset-sm-1">
+
+    <!-- FORM -->
+    <form class="rf-form" #empleadoadd="ngForm" (ngSubmit)="onSubmit()">
+      
+      <div class="form-group">
+        <label for="id">Documento:</label>
+        <input type="text" name="id" #id="ngModel" [(ngModel)]="empleado.ID" pattern="[0-9]+" maxlength="8" required>
+        <span class="rf-form-error" *ngIf="!id.valid && id.touched">El Documento es obligatorio y tener un maximo de 8 caracteres.</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="nombre">Nombres:</label>
+        <input type="text" name="nombre" #nombre="ngModel" [(ngModel)]="empleado.Nombre" required>
+        <span class="rf-form-error" *ngIf="!nombre.valid && nombre.touched">El nombre es obligatorio.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="apellido">Apellidos:</label>
+        <input type="text" name="apellido" #apellido="ngModel" [(ngModel)]="empleado.Apellido" required>
+        <span class="rf-form-error" *ngIf="!apellido.valid && apellido.touched">El apellido esobligatorio.</span>
+      </div>
+
+      <div class="form-group">
+        <label for="idTienda">Tienda en la que trabaja:</label>
+        <select name="idTienda" #idTienda="ngModel" [(ngModel)]="empleado.IDTienda" required>
+          <option value="">Selecciona una tienda</option>
+          <option value="LM">Lima</option>
+          <option value="SM">Surquillo</option>
+        </select>
+        <span class="rf-form-error" *ngIf="!idTienda.valid && idTienda.touched">Debe seleccionar una tienda.</span>
+      </div>
+
+      <div class="form-group clearfix mt-4">
+        <button class="rf-btn float-right" type="submit" [disabled]="!empleadoadd.form.valid">Agregar</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</div>

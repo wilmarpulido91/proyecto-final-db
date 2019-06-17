@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Global } from 'src/app/shared/services/global.services';
+import { Global } from 'src/app/shared/services/global.service';
 
 @Component({
   selector: 'app-sidebar',

@@ -1,40 +1,36 @@
 <div class="row">
 
-  <aside id="c_sidebar" class="rf-sidebar">
+  <aside class="col rf-sidebar">
 
-    <div class="col">
+    <span class="menu-close">
+      <i class="fas fa-arrow-circle-left fa-3x" aria-hidden="true" (click)="CloseMenu()"></i>
+    </span>
 
-      <span class="menu-close">
-        <i class="fas fa-arrow-circle-left fa-3x" aria-hidden="true" (click)="CloseMenu()"></i>
-      </span>
+    <ul class="menu-sidebar nav">
 
-      <ul class="menu-sidebar nav">
+      <li>
 
-        <li>
+        <h4>Empleados</h4>
 
-          <h4>Empleados</h4>
+        <ul class="menu-sidebar-inner nav">
+          <li [routerLink]="['/empleados/list']" [routerLinkActive]="['active']" (click)="CloseMenu()">Ver todos</li>
+          <li [routerLink]="['/empleados/add']" [routerLinkActive]="['active']" (click)="CloseMenu()">Crear nuevo</li>
+        </ul>
 
-          <ul class="menu-sidebar-inner nav">
-            <li [routerLink]="['/empleados/list']" [routerLinkActive]="['active']" (click)="CloseMenu()">Ver todos</li>
-            <li [routerLink]="['/empleados/add']" [routerLinkActive]="['active']" (click)="CloseMenu()">Crear nuevo</li>
-          </ul>
+      </li>
 
-        </li>
+      <li>
 
-        <li>
+        <h4>Clientes</h4>
 
-          <h4>Clientes</h4>
+        <ul class="menu-sidebar-inner nav">
+          <li [routerLink]="['/']" (click)="CloseMenu()">Ver todos</li>
+          <li [routerLink]="['/']" (click)="CloseMenu()">Crear nuevo</li>
+        </ul>
 
-          <ul class="menu-sidebar-inner nav">
-            <li [routerLink]="['/']" (click)="CloseMenu()">Ver todos</li>
-            <li [routerLink]="['/']" (click)="CloseMenu()">Crear nuevo</li>
-          </ul>
+      </li>
 
-        </li>
-
-      </ul>
-
-    </div>
+    </ul>
 
   </aside>
 
