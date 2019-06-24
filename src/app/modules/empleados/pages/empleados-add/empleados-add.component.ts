@@ -2,13 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Global } from 'src/app/shared/services/global.service';
 import { EmpleadoService } from 'src/app/shared/services/empleado.service';
+import { ApiService } from 'src/app/shared/services/api.service';
 import { Empleado } from 'src/app/shared/models/empleado';
 
 @Component({
   selector: 'app-empleados-add',
   templateUrl: './empleados-add.component.html',
   styleUrls: ['./empleados-add.component.scss'],
-  providers: [EmpleadoService]
+  providers: [EmpleadoService, ApiService]
 })
 export class EmpleadosAddComponent implements OnInit {
 
