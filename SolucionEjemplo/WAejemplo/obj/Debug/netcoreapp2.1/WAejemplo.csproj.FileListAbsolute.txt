@@ -1,0 +1,14 @@
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.deps.json
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.runtimeconfig.json
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.runtimeconfig.dev.json
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.dll
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.pdb
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.csprojAssemblyReference.cache
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.csproj.CoreCompileInputs.cache
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorAssemblyInfo.cache
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorAssemblyInfo.cs
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.AssemblyInfoInputs.cache
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.AssemblyInfo.cs
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorTargetAssemblyInfo.cache
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.dll
+D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.pdb
