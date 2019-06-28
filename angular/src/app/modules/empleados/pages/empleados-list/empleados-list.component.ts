@@ -27,14 +27,13 @@ export class EmpleadosListComponent implements OnInit {
 
   ngOnInit() {
     this.getEmpleados();
-    console.log(this.arrEmpleados);
   }
 
   private getEmpleados() {
-    this._empleadoService.getConductores().pipe(first()).subscribe(res => {
-      
-      this.arrEmpleados = res;
-    });
-  };
-
+    this._empleadoService.getConductores().subscribe(
+      data => { this.arrEmpleados = data; console.log('TRAE INFO DEL SERVICIO OK: ', data); },
+      err => console.error(err),
+      () => console.log('Conductores loaded')
+    );
+  }
 }

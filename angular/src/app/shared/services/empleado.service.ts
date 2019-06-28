@@ -1,24 +1,27 @@
 import { Injectable } from '@angular/core';
 import { Global } from './global.service';
 import { Empleado } from '../models/empleado';
-import { Observable, BehaviorSubject } from 'rxjs';
+import { Observable, BehaviorSubject, throwError } from 'rxjs';
 import { ApiService } from './api.service';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
+import { catchError } from 'rxjs/operators';
 
 @Injectable()
 
 export class EmpleadoService {
   public url: string;
 
-	constructor(protected httpClient: HttpClient){
+  constructor(protected http: HttpClient) {
     this.url = Global.url;
-	}
+  }
 
-	getConductores():Observable<any> {
-		return this.httpClient.get<any>(this.url + 'empleados');
-	}
+  getConductores(): Observable<any> {
+    return this.http.get(this.url + 'empleados',
+      {headers: new HttpHeaders().set('Content-Type', 'application/json ')}
+    );
+  }
 
-	addConductor(empleado: Empleado):Observable<any> {
-    return this.httpClient.post(this.url + 'empleados/add', empleado);
+  addConductor(empleado: Empleado): Observable<any> {
+    return this.http.post(this.url + 'empleados/add', empleado);
   }
 }

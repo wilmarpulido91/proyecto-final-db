@@ -44,10 +44,9 @@ namespace WAejemplo
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("AllowCors");
 
             app.UseMvc();
-
-            app.UseCors("AllowCors");
         }
     }
 }
