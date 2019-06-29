@@ -37,17 +37,8 @@ export class EmpleadosAddComponent implements OnInit {
   }
   
   private saveEmpleado() {
-    this._empleadoService.addConductor(this.empleado).subscribe(
-      res => {
-        console.log(res);
-        this._mapEmpleado(res);
-      }
+    this._empleadoService.addEmpleado(this.empleado).subscribe(
+      () => { this._router.navigate(['/empleados/list']); }
     );
-  }
-
-  private _mapEmpleado(arrEmpleados) {
-    this.arrEmpleados = arrEmpleados.map(empleado => {
-      this.arrEmpleados.push(empleado);
-    });
   }
 }

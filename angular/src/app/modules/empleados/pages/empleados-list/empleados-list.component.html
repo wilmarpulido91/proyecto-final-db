@@ -9,3 +9,38 @@
   </div>
 
 </div>
+
+<div class="row mt-4" *ngIf="!arrEmpleados">
+    <div class="col">
+        <p>Cargando..</p>
+    </div>
+</div>
+
+<div class="row mt-4" *ngIf="arrEmpleados">
+
+  <div class="col">
+      <div class="table-responsive">
+          <table border="1" width="100%">
+              <thead>
+                  <tr>
+                      <th>Id</th>
+                      <th>Tienda</th>
+                      <th>Nombre</th>
+                      <th>Apellido</th>
+                      <th>Acciones</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr *ngFor="let empleado of arrEmpleados">
+                      <td>{{empleado.id}}</td>
+                      <td>{{empleado.idTienda}}</td>
+                      <td>{{empleado.nombre}}</td>
+                      <td>{{empleado.apellido}}</td>
+                      <td><span>Editar</span> / <span>Eliminar</span></td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+  
+</div>

@@ -15,25 +15,25 @@ export class EmpleadosListComponent implements OnInit {
 
   public title:string;
   public url:string;
-  public arrEmpleados:any[];
+  public arrEmpleados:Empleado[];
 
   constructor(
     private _empleadoService: EmpleadoService
   ) {
     this.title = "Lista de empleados";
     this.url = Global.url;
-    this.arrEmpleados = [];
   }
 
   ngOnInit() {
     this.getEmpleados();
   }
 
-  private getEmpleados() {
-    this._empleadoService.getConductores().subscribe(
-      data => { this.arrEmpleados = data; console.log('TRAE INFO DEL SERVICIO OK: ', data); },
-      err => console.error(err),
-      () => console.log('Conductores loaded')
+  getEmpleados() {
+    this._empleadoService.getEmpleados().subscribe(
+      data => {
+        this.arrEmpleados = data;
+      },
+      err => console.error(err)
     );
   }
 }

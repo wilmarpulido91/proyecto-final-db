@@ -15,13 +15,15 @@ export class EmpleadoService {
     this.url = Global.url;
   }
 
-  getConductores(): Observable<any> {
+  getEmpleados(): Observable<any> {
     return this.http.get(this.url + 'empleados',
       {headers: new HttpHeaders().set('Content-Type', 'application/json ')}
     );
   }
 
-  addConductor(empleado: Empleado): Observable<any> {
-    return this.http.post(this.url + 'empleados/add', empleado);
+  addEmpleado(empleado: Empleado): Observable<any> {
+    return this.http.post(this.url + 'empleados/add', empleado,
+      {headers: new HttpHeaders().set('Content-Type', 'application/json ')}
+    );
   }
 }

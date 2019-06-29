@@ -14,7 +14,6 @@ export class ApiService {
   };
 
   constructor(
-    // tslint:disable-next-line:variable-name
     private _http: HttpClient
   ) {}
 
