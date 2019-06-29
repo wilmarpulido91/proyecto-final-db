@@ -7,22 +7,25 @@ import { catchError } from 'rxjs/operators';
 
 @Injectable()
 export class ApiService {
+  httpOptions = {
+    headers: new HttpHeaders({
+      'Content-Type': 'application/json'
+    })
+  };
+
   constructor(
+    // tslint:disable-next-line:variable-name
     private _http: HttpClient
   ) {}
 
   public get(apiUrl: string): Observable<any> {
-    return this._http.get(apiUrl).pipe(catchError(this._handleError.bind(this)));
+    return this._http.get(apiUrl,
+      {headers: new HttpHeaders().set('Content-Type', 'application/json ')}
+    );
   }
 
   public post(apiUrl: string, param: object): Observable<any> {
-    const httpOptions = {
-      headers: new HttpHeaders({
-        'Content-Type': 'application/json',
-        'Access-Control-Allow-Origin': '*'
-      })
-    };
-    return this._http.post(apiUrl, param, httpOptions).pipe(catchError(this._handleError.bind(this)));
+    return this._http.post(apiUrl, param, this.httpOptions).pipe(catchError(this._handleError.bind(this)));
   }
 
   private _handleError(err: HttpErrorResponse) {

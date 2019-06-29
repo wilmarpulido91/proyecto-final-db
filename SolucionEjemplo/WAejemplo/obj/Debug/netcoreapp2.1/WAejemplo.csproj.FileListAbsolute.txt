@@ -12,3 +12,17 @@ D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyec
 D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorTargetAssemblyInfo.cache
 D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.dll
 D:\Documentos\3. ISIL - Desarrollo VideoJuegos\4. Ciclo\3. Bases de datos\Proyecto Final\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.pdb
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.deps.json
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.runtimeconfig.json
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.runtimeconfig.dev.json
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.dll
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\bin\Debug\netcoreapp2.1\WAejemplo.pdb
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.csprojAssemblyReference.cache
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.csproj.CoreCompileInputs.cache
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorAssemblyInfo.cache
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorAssemblyInfo.cs
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.AssemblyInfoInputs.cache
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.AssemblyInfo.cs
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.RazorTargetAssemblyInfo.cache
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.dll
+C:\Users\walbe\Downloads\proyecto-final-db\SolucionEjemplo\WAejemplo\obj\Debug\netcoreapp2.1\WAejemplo.pdb

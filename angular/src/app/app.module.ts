@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from  '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from  '@angular/common/http';
 
 import { AppComponent } from './app.component';
 
@@ -11,6 +11,8 @@ import { ContentComponent } from './shared/components/content/content.component'
 
 // Routing
 import { AppRoutingModule } from './app-routing-module';
+import { AuthInterceptorService } from './shared/services/auth-interceptor.service';
+import { ErrorInterceptor } from './shared/services/error.interceptor';
 
 @NgModule({
   declarations: [

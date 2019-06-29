@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\3. ISIL - Desarrollo VideoJuegos\\4. Ciclo\\3. Bases de datos\\Proyecto Final\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj": {}
+    "C:\\Users\\walbe\\Downloads\\proyecto-final-db\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\3. ISIL - Desarrollo VideoJuegos\\4. Ciclo\\3. Bases de datos\\Proyecto Final\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj": {
+    "C:\\Users\\walbe\\Downloads\\proyecto-final-db\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\3. ISIL - Desarrollo VideoJuegos\\4. Ciclo\\3. Bases de datos\\Proyecto Final\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj",
+        "projectUniqueName": "C:\\Users\\walbe\\Downloads\\proyecto-final-db\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj",
         "projectName": "WAejemplo",
-        "projectPath": "D:\\Documentos\\3. ISIL - Desarrollo VideoJuegos\\4. Ciclo\\3. Bases de datos\\Proyecto Final\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\3. ISIL - Desarrollo VideoJuegos\\4. Ciclo\\3. Bases de datos\\Proyecto Final\\SolucionEjemplo\\WAejemplo\\obj\\",
+        "projectPath": "C:\\Users\\walbe\\Downloads\\proyecto-final-db\\SolucionEjemplo\\WAejemplo\\WAejemplo.csproj",
+        "packagesPath": "C:\\Users\\walbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\walbe\\Downloads\\proyecto-final-db\\SolucionEjemplo\\WAejemplo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\walbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,7 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
