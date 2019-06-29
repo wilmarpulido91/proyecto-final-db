@@ -36,7 +36,7 @@
         <select name="idTienda" #idTienda="ngModel" [(ngModel)]="empleado.IDTienda" required>
           <option value="">Selecciona una tienda</option>
           <option value="LM">Lima</option>
-          <option value="SM">Surquillo</option>
+          <option value="SU">Surquillo</option>
         </select>
         <span class="rf-form-error" *ngIf="!idTienda.valid && idTienda.touched">Debe seleccionar una tienda.</span>
       </div>
